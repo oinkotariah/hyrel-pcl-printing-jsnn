@@ -1,0 +1,36 @@
+Default recipe naming conventions:
+
+PRINT:		NOZZLEWIDTH, LAYERTHICKNESS, FEEDRATE (mm/sec), INFILL, ETC.
+
+	examples:
+
+	0.5w, 0.15z, 15f, 15%	= 0.5mm noz,   0.15mm layers, 15 mm/sec (900mm/min) travel,  15% infill
+	0.5w, 0.20z, 15f, 15%	= 0.5mm noz,   0.20mm layers, 20 mm/sec (1200mm/min) travel, 20% infill
+	0.5w, 0.25z, 15f, 15%	= 0.5mm noz,   0.25mm layers, 25 mm/sec (1500mm/min) travel, 25% infill
+	0.5w, 0.30z, 15f, 15%	= 0.5mm noz,   0.30mm layers, 30 mm/sec (1800mm/min) travel, 30% infill
+	0.5w, 0.35z, 15f, 15%	= 0.5mm noz,   0.35mm layers, 35 mm/sec (2100mm/min) travel, 35% infill
+	0.5w, 0.40z, 15f, 15%	= 0.5mm noz,   0.40mm layers, 40 mm/sec (2400mm/min) travel, 40% infill
+	14#, 0.50z, 25f, 50%	= 1.6mm noz,   0.50mm layers, 25 mm/sec (1500mm/min) travel, 50% infill
+	18#, 0.50z, 25f, 50%	= 0.838mm noz, 0.50mm layers, 25 mm/sec (1500mm/min) travel, 50% infill
+	22#, 0.50z, 25f, 50%	= 0.413mm noz, 0.50mm layers, 25 mm/sec (1500mm/min) travel, 50% infill
+
+
+PRINTER:	TYPE OF PRINT HEAD:
+
+	examples:
+
+	T0, Heated - for heated head in FIRST SLOT, with heated bed
+	T1, Unheated - for unheated head in SECOND SLOT, with unheated bed
+
+
+FILAMENT: 	HEAD°C, FAN%, BED°C
+
+	examples:
+
+	35°C, NoFan, NoBed (Plasticine)	= head at 35°C, no cooling, no bed heating		
+	210°C, 25%Fan, 40°CBed (PLA)	= head at 210°C, fan at 25% (after layer 5), bed at 40°C 	
+	240°C, 25%Fan, 80°CBed (ABS-30M) = head at 240°C, fan at 25% (after layer 5), bed at 80°C
+	240°C, 25%Fan, 100°CBed (ABS-EHR) = head at 240°C, fan at 25% (after layer 5), bed at 100°C
+	240°C, 25%Fan, 120°CBed (ABS-16A) = head at 240°C, fan at 25% (after layer 5), bed at 120°C
+ 	NoHeat, NoFan, NoBed (Gel)        = head and bed at room temperature, no fan/uv
+

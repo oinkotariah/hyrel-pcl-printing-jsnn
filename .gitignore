@@ -1,0 +1,42 @@
+# PDFs — copyrighted, don't commit
+*.pdf
+
+# Photos — sometimes large; only commit small thumbnails or representative shots
+runs/**/photos/*.RAW
+runs/**/photos/*.raw
+runs/**/photos/*.heic
+runs/**/photos/*.tiff
+
+# Large temporary files
+*.tmp
+*.log
+*.bak
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor cruft
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Slic3r / PrusaSlicer cache
+.cache/
+*.bgcode  # binary G-code cache
+
+# Don't commit personal credentials / API keys (just in case)
+.env
+*.pem
+*_secret.*
