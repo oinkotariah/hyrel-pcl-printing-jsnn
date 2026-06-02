@@ -157,10 +157,10 @@ PDFs are NOT committed to this repo (copyright). Lab members can access them via
 
 - **Onengiyeofori "Nengi" Inko-Tariah** — REU student, AAMU EE — initial diagnosis and patch (June 2026).
 - **Nick Ricks** — graduate mentor, IMPACT Lab.
-- *(add yourself here when you contribute)*
+
 
 ---
 
 ## License
 
-MIT. See `LICENSE`. The configs are derivatives of PrusaSlicer's output (PrusaSlicer is AGPLv3, but its output is yours — INI config files we generate are MIT-able).
+MIT. See `LICENSE`. The configs are derivatives of PrusaSlicer's output (
