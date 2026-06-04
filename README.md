@@ -6,6 +6,20 @@ The point of this repo is to **make the lab's settings reproducible** — so whe
 
 ---
 
+## Project status — June 4, 2026 (Day 3 pivot)
+
+**The live project is now a flexible conductive PCL/graphite composite, not bone-tissue scaffolds.** Same printer, same PCL, but the application has shifted to **flexible electronics**:
+
+- **Goal:** PCL loaded with graphite at 5 loadings (10–30 %), formed into dog-bone specimens, measure conductivity to locate the **percolation threshold**. Poster now, paper later.
+- **Hardware:** Hyrel SYSTEM 30M currently **down** (heads/nozzles reordered). Fallback fabrication route = melt-and-mould-cast.
+- **Papers in scope** (5): Yuk 2020 (north star · printing a conductor), Zhang 2021 (PCL DIW how-to), Teixeira 2026 (parameter optimization), Liu 2018 (PCL melt-extrusion crystallinity), Woodruff & Hutmacher 2010 (PCL review). All summarized in `docs/research_notes/`.
+
+The travel-speed G-code fix story below remains accurate as historical / methodological context. The `gcode/` and `configs/` folders are still the canonical settings if the Hyrel comes back online.
+
+**For full current context** (paste into a fresh chat to restore state): see `docs/PROJECT_HANDOFF.md`.
+
+---
+
 ## Quick start
 
 If you just want to print our calibration cube:
